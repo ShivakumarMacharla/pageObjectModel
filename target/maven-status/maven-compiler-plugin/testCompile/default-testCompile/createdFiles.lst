@@ -1,0 +1,6 @@
+tests\RegisterTest.class
+pages\BaseTest.class
+pages\RegisterPage.class
+tests\LoginTest.class
+pages\LoginPage.class
+BaseTest.class
