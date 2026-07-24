@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-19T16:05:59 IST" name="Default suite" finished-at="2026-07-19T16:06:08 IST" duration-ms="9572">
+  <suite started-at="2026-07-23T21:57:25 IST" name="Suite" finished-at="2026-07-23T21:57:37 IST" duration-ms="11310">
     <groups>
     </groups>
-    <test started-at="2026-07-19T16:05:59 IST" name="Default test" finished-at="2026-07-19T16:06:08 IST" duration-ms="9572">
+    <test started-at="2026-07-23T21:57:25 IST" name="Test" finished-at="2026-07-23T21:57:37 IST" duration-ms="11310">
       <class name="tests.RegisterTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.RegisterTest@489115ef]" started-at="2026-07-19T16:05:59 IST" name="launchBrowser" finished-at="2026-07-19T16:06:06 IST" duration-ms="6960" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.RegisterTest@6f03482]" started-at="2026-07-23T21:57:26 IST" name="launchBrowser" finished-at="2026-07-23T21:57:34 IST" duration-ms="8493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="testRegisterAccount()[pri:0, instance:tests.RegisterTest@489115ef]" started-at="2026-07-19T16:06:06 IST" name="testRegisterAccount" finished-at="2026-07-19T16:06:08 IST" duration-ms="2130" status="PASS">
+        <test-method signature="testRegisterAccount()[pri:0, instance:tests.RegisterTest@6f03482]" started-at="2026-07-23T21:57:34 IST" name="testRegisterAccount" finished-at="2026-07-23T21:57:36 IST" duration-ms="2285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegisterAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@489115ef]" started-at="2026-07-19T16:06:08 IST" name="tearDown" finished-at="2026-07-19T16:06:08 IST" duration-ms="337" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTest@6f03482]" started-at="2026-07-23T21:57:36 IST" name="tearDown" finished-at="2026-07-23T21:57:37 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RegisterTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
