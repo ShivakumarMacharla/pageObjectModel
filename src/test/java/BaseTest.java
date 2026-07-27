@@ -12,20 +12,28 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 public class BaseTest {
 
 	protected static WebDriver driver ;
-	public static Logger log;
+	public static Logger log = LogManager.getLogger(BaseTest.class);
+	
+	ExtentReports extent;
+	ExtentTest test;	
 	
 	@BeforeClass
 	public void launchBrowser() {
-		log = LogManager.getLogger(BaseTest.class);
+		test = extent.createTest("Launch Browser");
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 		driver.get("https://easycom.quickeselling.com/signup.html");
 		//driver.get("https://easycom.quickeselling.com/");
 		log.info("------launchBrowser------");
+		test.info("SYYYYYY");
 	}
 	@AfterClass
 	public void tearDown() {

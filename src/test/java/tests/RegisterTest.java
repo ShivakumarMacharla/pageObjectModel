@@ -3,17 +3,22 @@ package tests;
 import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import pages.BaseTest;
 import pages.RegisterPage;
 
 public class RegisterTest extends BaseTest  {
 	
 	RegisterPage registerpage;
+//	ExtentReports extent;
+//	ExtentTest test;	
 
 	@Test
 	public void testRegisterAccount() {
 		log = LogManager.getLogger(RegisterTest.class);
-		
+		//test = extent.createTest("Launch Browser");
 		log.info("============validateLoginCredentials=======================");
 		registerpage = new RegisterPage(driver);
 		registerpage.enterFirstName().sendKeys("shiva");

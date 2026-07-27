@@ -1,0 +1,18 @@
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+		<File name="File" fileName="C:\\Users\\macha\\eclipse-workspace\\loggerDemo\\log4j.log" append="true">
+			<PatternLayout>
+				<Pattern>%d [%t] %-5level %logger{36} - %msg%n</Pattern>
+			</PatternLayout>
+
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>
